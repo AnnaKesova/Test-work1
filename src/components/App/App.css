@@ -1,0 +1,183 @@
+.App {
+  background-color: #fff;
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-image: url(../../images/arrangement-of-festive-wrapped-gifts.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+
+.container__header {
+  padding: 50px;
+}
+
+.header__title {
+  font-weight: 500;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-size: 50px;
+  line-height: 27px;
+  color: black;
+  margin: 0 auto;
+}
+
+@media (max-width: 450px) {
+  .header__title {
+    font-size: 33px;
+    line-height: 20px;
+  }
+}
+
+.container__content {
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.content__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 auto;
+  padding-left: 0;
+  gap: 10px;
+}
+
+.content__card {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(100%, 100%, 100%, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.content__title {
+  font-weight: 500;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: black;
+  margin: 0 auto 20px;
+}
+
+.content__subtitle {
+  font-weight: 500;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-size: 23px;
+  line-height: 17px;
+  color: black;
+  margin: 0 auto 50px;
+}
+
+.content__button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.content__bin {
+  background-image: url(../../images/icons8-мусор.svg);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.content__bin:hover {
+  opacity: 50%;
+}
+
+.content__buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__like {
+  background-color: transparent;
+  background-image: url(../../images/нравится.svg);
+  background-repeat: no-repeat;
+  width: 31px;
+  height: 26px;
+  border-style: none;
+  padding: 0;
+  background-size: contain;
+}
+
+.content__like:hover {
+  opacity: 50%;
+}
+
+.content__like_active {
+  background-image: url(../../images/likeblack.svg);
+  background-repeat: no-repeat;
+  width: 31px;
+  height: 26px;
+  border-style: none;
+  padding: 0;
+  background-size: contain;
+}
+
+.footer {
+  padding: 30px;
+  box-sizing: border-box;
+  border-top: 1px solid #000;
+  width: 100%;
+}
+
+.footer__likes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__text {
+  font-weight: 500;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 17px;
+  color: black;
+  /* text-decoration: none; */
+  cursor: pointer;
+}
+
+.footer__text:hover {
+  opacity: 50%;
+}
+
+.footer__button {
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 17px;
+  color: #000;
+}
+
+.footer__button:hover {
+  opacity: 50%;
+}
+
+
