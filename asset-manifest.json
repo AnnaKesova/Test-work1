@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Test-work1/static/css/main.b782aede.css",
+    "main.js": "/Test-work1/static/js/main.c1b06860.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Test-work1/static/js/787.28cb0dcd.chunk.js",
+    "static/media/arrangement-of-festive-wrapped-gifts.jpg": "/Test-work1/static/media/arrangement-of-festive-wrapped-gifts.1ea5d0d68826b706b16c.jpg",
+    "static/media/Inter-Black.woff?v=3.19": "/Test-work1/static/media/Inter-Black.fd37f7e052bea1018058.woff",
+    "static/media/Inter-Medium.woff?v=3.19": "/Test-work1/static/media/Inter-Medium.7ddb89dcdb33dd761944.woff",
+    "static/media/Inter-Regular.woff?v=3.19": "/Test-work1/static/media/Inter-Regular.34ed58565339f4f3be40.woff",
+    "static/media/Inter-Black.woff2?v=3.19": "/Test-work1/static/media/Inter-Black.141c7af6ed109b318513.woff2",
+    "static/media/Inter-Medium.woff2?v=3.19": "/Test-work1/static/media/Inter-Medium.6db7e439cc4b0e5c0cd2.woff2",
+    "static/media/Inter-Regular.woff2?v=3.19": "/Test-work1/static/media/Inter-Regular.4c96ed73beaf6d1e6cc7.woff2",
+    "static/media/нравится.svg": "/Test-work1/static/media/нравится.1ad06e85f169668a1f36.svg",
+    "index.html": "/Test-work1/index.html",
+    "static/media/icons8-мусор.svg": "/Test-work1/static/media/icons8-мусор.6dd749a958ebc902e009.svg",
+    "static/media/likeblack.svg": "/Test-work1/static/media/likeblack.fe17a515669479b1e649.svg",
+    "main.b782aede.css.map": "/Test-work1/static/css/main.b782aede.css.map",
+    "main.c1b06860.js.map": "/Test-work1/static/js/main.c1b06860.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Test-work1/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b782aede.css",
+    "static/js/main.c1b06860.js"
+  ]
+}
